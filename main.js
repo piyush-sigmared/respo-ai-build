@@ -1614,7 +1614,7 @@ class HeaderComponent extends src_app_shared_UnsubscribeOnDestroyAdapter__WEBPAC
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_8__.DOCUMENT), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](src_app_core_service_window_service__WEBPACK_IMPORTED_MODULE_0__.WINDOW), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_7__.Renderer2), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_7__.ElementRef), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](src_app_core_service_rightsidebar_service__WEBPACK_IMPORTED_MODULE_2__.RightSidebarService), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](src_app_config_config_service__WEBPACK_IMPORTED_MODULE_3__.ConfigService), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](src_app_core_service_auth_service__WEBPACK_IMPORTED_MODULE_4__.AuthService), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_9__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](src_app_core_service_language_service__WEBPACK_IMPORTED_MODULE_5__.LanguageService)); };
 HeaderComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], hostBindings: function HeaderComponent_HostBindings(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("scroll", function HeaderComponent_scroll_HostBindingHandler() { return ctx.onWindowScroll(); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵresolveWindow"]);
-    } }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵInheritDefinitionFeature"]], decls: 34, vars: 10, consts: [[1, "navbar", 2, "background-color", "white", 3, "ngClass"], ["navbar", ""], [1, "container-fluid"], [1, "navbar-header"], ["href", "#", "onClick", "return false;", "aria-expanded", "false", 1, "navbar-toggle", "collapsed", 3, "click"], ["href", "#", "onClick", "return false;", 1, "bars", 3, "click"], ["routerLink", "/InventoryComponent", 1, "navbar-brand"], ["src", "assets/images/SigmaRedLight.png", "alt", "", 2, "height", "40px", "object-fit", "contain", "margin-top", "-1%"], [1, "collapse", "navbar-collapse", 3, "ngbCollapse"], [1, "pull-left", "collapse-menu-icon", 2, "margin-top", "23px", "margin-left", "5px"], [1, "nav", "navbar-nav", "navbar-right"], [1, "fullscreen"], ["ngbDropdown", "", 1, "nav-item"], ["ngbDropdown", "", 1, "nav-item", "user_profile"], ["href", "#", "onClick", "return false;", "ngbDropdownToggle", "", "role", "button", 1, "nav-notification-icons", 2, "padding-top", "4px"], ["src", "assets/images/user.png", "width", "32", "height", "32", "alt", "User", 1, "rounded-circle"], ["ngbDropdownMenu", "", 1, "notification-dropdown"], [1, "noti-list", 2, "position", "relative", "max-width", "600px", "max-height", "300px", 3, "perfectScrollbar"], [1, "menu"], [1, "body"], [1, "user_dw_menu"], [3, "icon"], ["href", "javascript:void(0);", 3, "click"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵInheritDefinitionFeature"]], decls: 34, vars: 10, consts: [[1, "navbar", 2, "background-color", "white", 3, "ngClass"], ["navbar", ""], [1, "container-fluid"], [1, "navbar-header"], ["href", "#", "onClick", "return false;", "aria-expanded", "false", 1, "navbar-toggle", "collapsed", 3, "click"], ["href", "#", "onClick", "return false;", 1, "bars", 3, "click"], ["routerLink", "/InventoryComponent", 1, "navbar-brand"], ["src", "assets/images/SigmaRedLight.png", "alt", "", 2, "height", "40px", "object-fit", "contain", "margin-top", "-1%", "padding-left", "10px"], [1, "collapse", "navbar-collapse", 3, "ngbCollapse"], [1, "pull-left", "collapse-menu-icon", 2, "margin-top", "23px", "margin-left", "20px"], [1, "nav", "navbar-nav", "navbar-right"], [1, "fullscreen"], ["ngbDropdown", "", 1, "nav-item"], ["ngbDropdown", "", 1, "nav-item", "user_profile"], ["href", "#", "onClick", "return false;", "ngbDropdownToggle", "", "role", "button", 1, "nav-notification-icons", 2, "padding-top", "4px"], ["src", "assets/images/user.png", "width", "32", "height", "32", "alt", "User", 1, "rounded-circle"], ["ngbDropdownMenu", "", 1, "notification-dropdown"], [1, "noti-list", 2, "position", "relative", "max-width", "600px", "max-height", "300px", 3, "perfectScrollbar"], [1, "menu"], [1, "body"], [1, "user_dw_menu"], [3, "icon"], ["href", "javascript:void(0);", 3, "click"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "nav", 0, 1)(2, "div", 2)(3, "div", 3)(4, "a", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function HeaderComponent_Template_a_click_4_listener() { return ctx.isNavbarCollapsed = !ctx.isNavbarCollapsed; });
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
@@ -2324,11 +2324,11 @@ const routes_list = [
         icon: "trello",
         class: "menu-toggle",
         groupTitle: false,
-        id: "complaince",
+        id: "compliance",
         submenu: [
             {
-                path: "complaince/regulation",
-                id: "complaince/regulation",
+                path: "compliance/regulation",
+                id: "compliance/regulation",
                 title: "MENUITEMS.COMPLAINCE.LIST.Regulation",
                 icon: "",
                 class: "ml-menu",
@@ -2336,8 +2336,8 @@ const routes_list = [
                 submenu: [],
             },
             {
-                path: "complaince/NYC",
-                id: "complaince/NYC",
+                path: "compliance/NYC",
+                id: "compliance/NYC",
                 title: "MENUITEMS.COMPLAINCE.LIST.NYC",
                 icon: "",
                 class: "ml-menu",
@@ -3149,9 +3149,10 @@ const getRoutes = () => {
     const idsToKeep1 = JSON.parse(sessionStorage.getItem("Modules"));
     console.log(idsToKeep1);
     const idsToKeep2 = csvStringToArray(sessionStorage.getItem("Metrics"));
-    console.log(filterDataById(routes_list, idsToKeep1, idsToKeep2));
+    const filteredIds = filterDataById(routes_list, idsToKeep1, idsToKeep2);
+    console.log(filteredIds, idsToKeep1, idsToKeep2, "jaa");
     if (idsToKeep1.length > 0)
-        return filterDataById(routes_list, idsToKeep1, idsToKeep2);
+        return filteredIds;
     else
         return routes_list;
 };
@@ -3308,7 +3309,7 @@ function SidebarComponent_li_4_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const sidebarItem_r1 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction1"](5, _c1, !sidebarItem_r1.active))("routerLinkActive", sidebarItem_r1.submenu.length != 0 ? "active" : "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction1"](5, _c1, sidebarItem_r1.id === "compliance" ? !sidebarItem_r1.active : false))("routerLinkActive", sidebarItem_r1.submenu.length != 0 ? "active" : "");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", sidebarItem_r1.groupTitle === true);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
@@ -3387,7 +3388,7 @@ class SidebarComponent extends src_app_shared_UnsubscribeOnDestroyAdapter__WEBPA
         if (this.authService.currentUserValue) {
             this.ROUTES = (0,_sidebar_items__WEBPACK_IMPORTED_MODULE_1__.getRoutes)();
             console.log(this.ROUTES);
-            this.sidebarItems = this.ROUTES.filter((sidebarItem) => sidebarItem);
+            this.sidebarItems = this.ROUTES;
             this.sidebarItems.sort((a, b) => {
                 // Sorting active items first
                 return (a.active === b.active) ? 0 : a.active ? -1 : 1;
