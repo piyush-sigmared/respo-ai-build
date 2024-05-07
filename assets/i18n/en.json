@@ -76,7 +76,7 @@
         "SUMMARY":"Summary",
         "PERFORMANCE": "Performance",
         "EXPLAINABILITY": "Explainability",
-        "whatif": "What If"
+        "whatif": "What If Analysis"
 
       }
     },
