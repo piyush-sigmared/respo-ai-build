@@ -376,7 +376,7 @@ class IntersectionComponent {
             {
                 title: 'Bias',
                 items: ['Bias'],
-                active: 'Intersectional Evaluation'
+                active: 'Overall Evaluation'
             }
         ];
     }
