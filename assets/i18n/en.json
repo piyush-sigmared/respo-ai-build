@@ -80,6 +80,15 @@
 
       }
     },
+    "HELP": {
+      "TEXT": "Help",
+      "LIST": {
+        "USERMANUAL":"User Manual",
+        "FAQ": "FAQ",
+        "CONTACT": "Support Contact Details",
+        "CHAT": "Chat Support"
+      }
+    },
     "ADVANCE-TABLE": {
       "TEXT": "Advance Table"
     },
