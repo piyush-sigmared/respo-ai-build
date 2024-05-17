@@ -210,7 +210,7 @@ class Contact {
 Contact.ɵfac = function Contact_Factory(t) { return new (t || Contact)(); };
 Contact.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: Contact, selectors: [["app-contact"]], decls: 37, vars: 0, consts: [[1, "content"], [2, "padding", "10px"], [1, "contact-section"], [1, "contact-detail"], ["href", "mailto:murali@sigmared.ai"], ["href", "mailto:contact@sigmared.ai"], ["href", "mailto:info@greymattermatters.nl"], ["href", "mailto:vijaya@sigmared.ai"]], template: function Contact_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "mat-card")(3, "mat-card-content")(4, "div", 2)(5, "h2");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Support Contact Details");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Contact Details");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 3)(8, "h3");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Canada");
