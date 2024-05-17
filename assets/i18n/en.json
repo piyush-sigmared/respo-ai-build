@@ -34,8 +34,8 @@
       "LIST": {
         "DASHBOARDRES":"Summary",
         "SUMMARY": "Summary",
-        "DASHBOARD1": "Bias",
-        "DASHBOARD2": "Overall Evaluation"
+        "DASHBOARD1": "Bias Metrics",
+        "DASHBOARD2": "Feature-wise Evaluation"
       }
     },
     "TPRM": {
@@ -76,7 +76,7 @@
         "SUMMARY":"Summary",
         "PERFORMANCE": "Performance",
         "EXPLAINABILITY": "Explainability",
-        "whatif": "What If Analysis"
+        "whatif": "\"What-if\" Analysis"
 
       }
     },
@@ -85,7 +85,7 @@
       "LIST": {
         "USERMANUAL":"User Manual",
         "FAQ": "FAQ",
-        "CONTACT": "Support Contact Details",
+        "CONTACT": "Contact Details",
         "CHAT": "Chat Support"
       }
     },
