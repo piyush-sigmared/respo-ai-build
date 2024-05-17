@@ -38,7 +38,7 @@ const routes = [
         component: _faq_faq_component__WEBPACK_IMPORTED_MODULE_2__.Faq
     },
     {
-        path: 'chat',
+        path: 'privacy',
         component: _chatbot_chatbot_component__WEBPACK_IMPORTED_MODULE_3__.Chatbot
     },
 ];
@@ -183,7 +183,11 @@ class Chatbot {
     }
 }
 Chatbot.ɵfac = function Chatbot_Factory(t) { return new (t || Chatbot)(); };
-Chatbot.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: Chatbot, selectors: [["app-chatbot"]], decls: 0, vars: 0, template: function Chatbot_Template(rf, ctx) { }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjaGF0Ym90LmNvbXBvbmVudC5zY3NzIn0= */"] });
+Chatbot.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: Chatbot, selectors: [["app-chatbot"]], decls: 2, vars: 0, consts: [[1, "content"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"] `/assets/data/SigmaRed Website Privacy Policy.pdf#toolbar=0`, "height", "800px", "width", "100%", "type", "application/pdf", "frameborder", "0"]], template: function Chatbot_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "embed", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: [".pdf-container[_ngcontent-%COMP%]   iframe[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 500px;\n  pointer-events: none; \n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNoYXRib3QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxXQUFBO0VBQ0EsYUFBQTtFQUNBLG9CQUFBLEVBQUEseUJBQUE7QUFDSiIsImZpbGUiOiJjaGF0Ym90LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBkZi1jb250YWluZXIgaWZyYW1lIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IDUwMHB4O1xuICAgIHBvaW50ZXItZXZlbnRzOiBub25lOyAvKiBEaXNhYmxlcyBpbnRlcmFjdGlvbiAqL1xufVxuIl19 */"] });
 
 
 /***/ }),

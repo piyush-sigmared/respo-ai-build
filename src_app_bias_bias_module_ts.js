@@ -2307,8 +2307,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function mainDashboardRes_div_2_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 28);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](1, "app-breadcrumb", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](1, "app-breadcrumb", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const breadscrum_r5 = ctx.$implicit;
@@ -2317,19 +2317,19 @@ function mainDashboardRes_div_2_Template(rf, ctx) { if (rf & 1) {
 } }
 function mainDashboardRes_button_15_Template(rf, ctx) { if (rf & 1) {
     const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "button", 30);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "button", 31);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function mainDashboardRes_button_15_Template_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r7); const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](); return _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵresetView"](ctx_r6.printPage()); });
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1, "Download as PDF");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 } }
 function mainDashboardRes_div_28_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "div", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "div", 32);
 } if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("options", ctx_r2.pie_chart);
 } }
 function mainDashboardRes_tr_39_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "tr")(1, "td", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "tr")(1, "td", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "td");
@@ -2343,7 +2343,7 @@ function mainDashboardRes_tr_39_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](item_r8 == null ? null : item_r8.risk);
 } }
 function mainDashboardRes_tr_68_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "tr")(1, "td", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "tr")(1, "td", 33);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "td");
@@ -2355,7 +2355,7 @@ function mainDashboardRes_tr_68_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "td", 27);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "td")(10, "span", 33);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "td")(10, "span", 34);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](11);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "td");
@@ -2641,7 +2641,7 @@ class mainDashboardRes {
     }
 }
 mainDashboardRes.ɵfac = function mainDashboardRes_Factory(t) { return new (t || mainDashboardRes)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_Datacollection_service_service__WEBPACK_IMPORTED_MODULE_0__.DatacollectionService), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_2__.Renderer2), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_auth0_auth0_angular__WEBPACK_IMPORTED_MODULE_3__.AuthService)); };
-mainDashboardRes.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: mainDashboardRes, selectors: [["app-mainDashboardRes"]], decls: 69, vars: 7, consts: [[1, "content", "printable"], [1, "container-fluid"], ["class", "block-header", "style", "margin-left: 16px;", 4, "ngFor", "ngForOf"], [2, "width", "100%", "color", "#232424", "font-weight", "400", "margin-left", "16px"], [2, "font-size", "20px", "margin-bottom", "12px"], [2, "color", "#1A73E8"], [2, "font-size", "16px"], [2, "font-size", "16px", "font-weight", "400"], ["class", "msr-3 no-print", "mat-raised-button", "", "style", "background-color: #1A73E8; color: white; position: absolute; right: 13px;", 3, "click", 4, "ngIf"], [1, "row"], [1, "col-xl-12", "col-lg-12", "col-md-12", "col-sm-12"], [1, "card"], [1, "header"], [2, "font-size", "large", "color", "black", "font-weight", "600"], ["mat-button", "", 1, "header-dropdown"], ["matTooltip", "The pie chart illustrates the distribution of scores into categories of risk levels: Low, Medium, and High. A Low score indicates low risk, while a High score signifies high risk.", "matTooltipPosition", "above", 2, "cursor", "pointer"], [1, "body"], ["echarts", "", "class", "echart-height", 3, "options", 4, "ngIf"], [1, "tableBody"], [1, "table-responsive"], [1, "table", "table-hover", "dashboard-task-infos"], [4, "ngFor", "ngForOf"], [1, "row", "clearfix"], [1, "col-xs-12", "col-sm-12", "col-md-12", "col-lg-12"], [1, "header", 2, "margin-bottom", "10px"], [2, "font-size", "large", "color", "black"], ["matTooltip", "The table displays bias metrics, their values, normal ranges, and criticality levels (high, medium, low), indicating associated risk levels.", "matTooltipPosition", "above", 2, "cursor", "pointer"], [2, "text-align", "center"], [1, "block-header", 2, "margin-left", "16px"], [3, "title", "items", "active_item"], ["mat-raised-button", "", 1, "msr-3", "no-print", 2, "background-color", "#1A73E8", "color", "white", "position", "absolute", "right", "13px", 3, "click"], ["echarts", "", 1, "echart-height", 3, "options"], [2, "text-align", "center", "min-width", "70px"], [3, "ngClass"]], template: function mainDashboardRes_Template(rf, ctx) { if (rf & 1) {
+mainDashboardRes.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: mainDashboardRes, selectors: [["app-mainDashboardRes"]], decls: 71, vars: 7, consts: [[1, "content", "printable"], [1, "container-fluid"], ["class", "block-header", "style", "margin-left: 16px;", 4, "ngFor", "ngForOf"], [2, "width", "100%", "color", "#232424", "font-weight", "400", "margin-left", "16px"], [2, "font-size", "20px", "margin-bottom", "12px"], [2, "color", "#1A73E8"], [2, "font-size", "16px"], [2, "font-size", "16px", "font-weight", "400"], ["class", "msr-3 no-print", "mat-raised-button", "", "style", "background-color: #1A73E8; color: white; position: absolute; right: 13px;", 3, "click", 4, "ngIf"], [1, "row"], [1, "col-xl-12", "col-lg-12", "col-md-12", "col-sm-12"], [1, "card"], [1, "header"], [2, "font-size", "large", "color", "black", "font-weight", "600"], ["mat-button", "", 1, "header-dropdown"], ["matTooltip", "The pie chart illustrates the distribution of scores into categories of risk levels: Low, Medium, and High. A Low score indicates low risk, while a High score signifies high risk.", "matTooltipPosition", "above", 2, "cursor", "pointer"], [1, "body"], ["echarts", "", "class", "echart-height", 3, "options", 4, "ngIf"], [1, "tableBody"], [1, "table-responsive"], [1, "table", "table-hover", "dashboard-task-infos"], [4, "ngFor", "ngForOf"], [1, "row", "clearfix"], [1, "col-xs-12", "col-sm-12", "col-md-12", "col-lg-12"], [1, "header", 2, "margin-bottom", "10px"], [2, "font-size", "large", "color", "black"], ["matTooltip", "The table displays bias metrics, their values, normal ranges, and criticality levels (high, medium, low), indicating associated risk levels.", "matTooltipPosition", "above", 2, "cursor", "pointer"], [2, "text-align", "center"], [2, "background", "#F5F6FA", "padding", "10px"], [1, "block-header", 2, "margin-left", "16px"], [3, "title", "items", "active_item"], ["mat-raised-button", "", 1, "msr-3", "no-print", 2, "background-color", "#1A73E8", "color", "white", "position", "absolute", "right", "13px", 3, "click"], ["echarts", "", 1, "echart-height", 3, "options"], [2, "text-align", "center", "min-width", "70px"], [3, "ngClass"]], template: function mainDashboardRes_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "section", 0)(1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](2, mainDashboardRes_div_2_Template, 2, 3, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "div", 3)(4, "h5", 4);
@@ -2704,7 +2704,10 @@ mainDashboardRes.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2_
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](67, "tbody");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](68, mainDashboardRes_tr_68_Template, 14, 7, "tr", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](69, "div", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](70, " Limitation of Liability. IN NO EVENT WILL EITHER PARTY HAVE ANY LIABILITY OR RESPONSIBILITY UNDER ANY THEORY OF LIABILITY OR CAUSE OF ACTION FOR ANY INDIRECT, INCIDENTAL, EXEMPLARY, SPECIAL, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO DAMAGES ARISING FROM BUSINESS INTERRUPTION OR LOSS OF PROFITS OR DATA). THIS IS A BETA AND LITE VERSION, AND HENCE, NOT ALL FEATURES ARE ENABLED. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", ctx.breadscrums);
