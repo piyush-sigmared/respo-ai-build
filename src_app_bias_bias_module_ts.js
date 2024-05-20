@@ -2579,7 +2579,7 @@ class mainDashboardRes {
             {
                 title: 'Bias',
                 items: ['Bias'],
-                active: 'Summary'
+                active: 'Bias Summary'
             }
         ];
     }
@@ -2706,7 +2706,7 @@ mainDashboardRes.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2_
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](68, mainDashboardRes_tr_68_Template, 14, 7, "tr", 21);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](69, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](70, " Limitation of Liability. IN NO EVENT WILL EITHER PARTY HAVE ANY LIABILITY OR RESPONSIBILITY UNDER ANY THEORY OF LIABILITY OR CAUSE OF ACTION FOR ANY INDIRECT, INCIDENTAL, EXEMPLARY, SPECIAL, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO DAMAGES ARISING FROM BUSINESS INTERRUPTION OR LOSS OF PROFITS OR DATA). THIS IS A BETA AND LITE VERSION, AND HENCE, NOT ALL FEATURES ARE ENABLED. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](70, " Limitation of Liability: IN NO EVENT SIGMARED TECHNOLOGIES INC. OR THE USER HAVE ANY LIABILITY OR RESPONSIBILITY UNDER ANY THEORY OF LIABILITY OR CAUSE OF ACTION FOR ANY INDIRECT, INCIDENTAL, EXEMPLARY, SPECIAL, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO DAMAGES ARISING FROM BUSINESS INTERRUPTION OR LOSS OF PROFITS OR DATA). THIS IS A BETA AND LITE VERSION, AND HENCE, THE RESULTS FROM THIS PLATFORM ARE NOT LEGALLY BINDING; NOT ALL FEATURES ARE ENABLED. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);

@@ -32,7 +32,7 @@
     "BIAS": {
       "TEXT": "Bias",
       "LIST": {
-        "DASHBOARDRES":"Summary",
+        "DASHBOARDRES":"Bias Summary",
         "SUMMARY": "Summary",
         "DASHBOARD1": "Bias Metrics",
         "DASHBOARD2": "Feature-wise Evaluation"
