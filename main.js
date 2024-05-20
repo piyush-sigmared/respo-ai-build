@@ -33,32 +33,41 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const _c0 = function (a0) { return { projectName: a0 }; };
+const _c1 = function (a1) { return ["/create-project", a1]; };
 function InventoryComponent_div_9_form_1_Template(rf, ctx) { if (rf & 1) {
     const _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "form", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function InventoryComponent_div_9_form_1_Template_form_click_0_listener() { const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r7); const project_r5 = restoredCtx.$implicit; const ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](2); return _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵresetView"](ctx_r6.setProject(project_r5)); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "button", 15)(2, "mat-icon");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, "info_outline");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "button", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function InventoryComponent_div_9_form_1_Template_button_click_1_listener($event) { return $event.stopPropagation(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "mat-icon");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, "edit");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "div", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, " Live ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "button", 16)(5, "mat-icon");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, "info_outline");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "div", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](8, " Live ");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "span", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "span", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](10);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div", 18)(9, "button", 19)(10, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](11, "AI Bias Analytics");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "div", 19)(12, "button", 20)(13, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, "AI Bias Analytics");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
 } if (rf & 2) {
     const project_r5 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](5, _c1, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpureFunction1"](3, _c0, project_r5.project_name)));
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpropertyInterpolate"]("matTooltip", project_r5 == null ? null : project_r5.descriptions);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", project_r5 == null ? null : project_r5.project_name, " ");
 } }
 function InventoryComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](1, InventoryComponent_div_9_form_1_Template, 12, 2, "form", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](1, InventoryComponent_div_9_form_1_Template, 15, 7, "form", 13);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
@@ -66,13 +75,13 @@ function InventoryComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", ctx_r0.listOfProjects);
 } }
 function InventoryComponent_div_10_Template(rf, ctx) { if (rf & 1) {
-    const _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 20)(1, "mat-checkbox", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("ngModelChange", function InventoryComponent_div_10_Template_mat_checkbox_ngModelChange_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r9); const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](); return _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵresetView"](ctx_r8.agreed = $event); });
+    const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 21)(1, "mat-checkbox", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("ngModelChange", function InventoryComponent_div_10_Template_mat_checkbox_ngModelChange_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r10); const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](); return _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵresetView"](ctx_r9.agreed = $event); });
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, " I agree to share the above information in line with SigmaRed's ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "a", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "a", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, "Privacy Policy");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, ". ");
@@ -83,7 +92,7 @@ function InventoryComponent_div_10_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngModel", ctx_r1.agreed);
 } }
 function InventoryComponent_button_11_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "button", 23)(1, "button", 24)(2, "mat-icon");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "button", 24)(1, "button", 25)(2, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, "info_outline");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](4, " Create New AI Bias Assessment ");
@@ -94,7 +103,7 @@ function InventoryComponent_button_11_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("disabled", !ctx_r2.agreed);
 } }
 function InventoryComponent_button_12_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "button", 25)(1, "button", 26)(2, "mat-icon");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "button", 26)(1, "button", 27)(2, "mat-icon");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](3, "info_outline");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](4, " Create New AI Bias Assessment ");
@@ -264,7 +273,7 @@ class InventoryComponent {
     }
 }
 InventoryComponent.ɵfac = function InventoryComponent_Factory(t) { return new (t || InventoryComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_app_service_service__WEBPACK_IMPORTED_MODULE_0__.AppcollectionService), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_auth0_auth0_angular__WEBPACK_IMPORTED_MODULE_4__.AuthService)); };
-InventoryComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: InventoryComponent, selectors: [["app-Inventory"]], decls: 16, vars: 4, consts: [[1, "inventory-body"], ["routerLink", "/InventoryComponent", 2, "z-index", "1000", "position", "fixed", "width", "100%", "top", "0", "left", "0", "display", "flex", "justify-content", "space-between", "align-items", "center", "padding", "20px", "padding-inline", "44px", "background-color", "#fff"], ["src", "assets/images/Sigma-red-Final-logo.png", "alt", "", 2, "height", "60px"], [2, "display", "flex", "justify-content", "center"], ["matTooltip", "SigmaRed's AiSCERT Lite platform identifies AI bias risks and provides comprehensive bias metrics.", 2, "cursor", "pointer", "font-size", "24px"], [1, "wrap-login1102", 2, "display", "flex", "flex-direction", "column", "justify-content", "center", "align-items", "center", "gap", "25px"], [2, "margin-top", "100px", "font-weight", "700", "width", "600px", "font-size", "36px", "text-align", "center"], ["class", "list-projects-container", 4, "ngIf"], ["style", "display: flex; align-items: center; margin-bottom: -20px;", 4, "ngIf"], ["mat-raised-button", "", "color", "primary", "routerLink", "/create-project", "style", "cursor: pointer; display: flex; justify-content: center; align-items: center; border-radius: 60px; height: 70px; width: 300px; font-size: 24px; color: white; background-color: #1A73E8;", "class", "create-project", 3, "backgroundColor", "disabled", 4, "ngIf"], ["mat-raised-button", "", "color", "primary", "style", "cursor: pointer; display: flex; justify-content: center; align-items: center; border-radius: 60px; height: 70px; width: 300px; font-size: 24px; color: white; background-color: gray;", "class", "create-project", "disabled", "", 4, "ngIf"], [2, "background", "#F5F6FA", "padding", "10px"], [1, "list-projects-container"], ["class", "form-content-inventory", 3, "click", 4, "ngFor", "ngForOf"], [1, "form-content-inventory", 3, "click"], ["mat-icon-button", "", "matTooltipPosition", "above", 2, "position", "absolute", "top", "3px", "right", "3px", 3, "matTooltip"], [1, "text-white", 2, "font-size", "14px", "font-weight", "500", "border-radius", "10px", "padding-inline", "14px", "padding-top", "5px", "padding-bottom", "5px", "position", "absolute", "bottom", "5px", "left", "3px", "background-color", "#5cb85c", "margin-top", "15px", "margin-right", "15px"], [1, "error-subheader", "p-b-2", 2, "font-size", "24px", "max-width", "200px"], [1, "container-login100-form-btn", "p-t-15"], ["mat-flat-button", "", 1, "login100-form-btn"], [2, "display", "flex", "align-items", "center", "margin-bottom", "-20px"], ["color", "primary", 2, "margin-right", "5px", 3, "ngModel", "ngModelChange"], ["href", "/assets/data/SigmaRed Website Privacy Policy.pdf", "target", "_blank"], ["mat-raised-button", "", "color", "primary", "routerLink", "/create-project", 1, "create-project", 2, "cursor", "pointer", "display", "flex", "justify-content", "center", "align-items", "center", "border-radius", "60px", "height", "70px", "width", "300px", "font-size", "24px", "color", "white", "background-color", "#1A73E8", 3, "disabled"], ["mat-icon-button", "", "matTooltip", "This button allows you to create a new AI bias assessment. Please note that you can only create one project.", "matTooltipPosition", "after", 2, "position", "absolute", "top", "3px", "right", "3px"], ["mat-raised-button", "", "color", "primary", "disabled", "", 1, "create-project", 2, "cursor", "pointer", "display", "flex", "justify-content", "center", "align-items", "center", "border-radius", "60px", "height", "70px", "width", "300px", "font-size", "24px", "color", "white", "background-color", "gray"], ["mat-icon-button", "", "matTooltip", "You have already created an AI bias assessment project. Creating additional projects is not allowed in AiSCERT LITE.", "matTooltipPosition", "after", 2, "position", "absolute", "top", "3px", "right", "3px"]], template: function InventoryComponent_Template(rf, ctx) { if (rf & 1) {
+InventoryComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: InventoryComponent, selectors: [["app-Inventory"]], decls: 16, vars: 4, consts: [[1, "inventory-body"], ["routerLink", "/InventoryComponent", 2, "z-index", "1000", "position", "fixed", "width", "100%", "top", "0", "left", "0", "display", "flex", "justify-content", "space-between", "align-items", "center", "padding", "20px", "padding-inline", "44px", "background-color", "#fff"], ["src", "assets/images/Sigma-red-Final-logo.png", "alt", "", 2, "height", "60px"], [2, "display", "flex", "justify-content", "center"], ["matTooltip", "SigmaRed's AiSCERT Lite platform identifies AI bias risks and provides comprehensive bias metrics.", 2, "cursor", "pointer", "font-size", "24px"], [1, "wrap-login1102", 2, "display", "flex", "flex-direction", "column", "justify-content", "center", "align-items", "center", "gap", "25px"], [2, "margin-top", "100px", "font-weight", "700", "width", "600px", "font-size", "36px", "text-align", "center"], ["class", "list-projects-container", 4, "ngIf"], ["style", "display: flex; align-items: center; margin-bottom: -20px;", 4, "ngIf"], ["mat-raised-button", "", "color", "primary", "routerLink", "/create-project", "style", "cursor: pointer; display: flex; justify-content: center; align-items: center; border-radius: 60px; height: 70px; width: 300px; font-size: 24px; color: white; background-color: #1A73E8;", "class", "create-project", 3, "backgroundColor", "disabled", 4, "ngIf"], ["mat-raised-button", "", "color", "primary", "style", "cursor: pointer; display: flex; justify-content: center; align-items: center; border-radius: 60px; height: 70px; width: 300px; font-size: 24px; color: white; background-color: gray;", "class", "create-project", "disabled", "", 4, "ngIf"], [2, "background", "#F5F6FA", "padding", "10px"], [1, "list-projects-container"], ["class", "form-content-inventory", 3, "click", 4, "ngFor", "ngForOf"], [1, "form-content-inventory", 3, "click"], ["mat-icon-button", "", "matTooltip", "Edit Project", 1, "edit-project-btn", 3, "routerLink", "click"], ["mat-icon-button", "", "matTooltipPosition", "above", 2, "position", "absolute", "top", "3px", "right", "3px", 3, "matTooltip"], [1, "text-white", 2, "font-size", "14px", "font-weight", "500", "border-radius", "10px", "padding-inline", "14px", "padding-top", "5px", "padding-bottom", "5px", "position", "absolute", "bottom", "5px", "left", "3px", "background-color", "#5cb85c", "margin-top", "15px", "margin-right", "15px"], [1, "error-subheader", "p-b-2", 2, "font-size", "24px", "max-width", "200px"], [1, "container-login100-form-btn", "p-t-15"], ["mat-flat-button", "", 1, "login100-form-btn"], [2, "display", "flex", "align-items", "center", "margin-bottom", "-20px"], ["color", "primary", 2, "margin-right", "5px", 3, "ngModel", "ngModelChange"], ["href", "/assets/data/SigmaRed Website Privacy Policy.pdf", "target", "_blank"], ["mat-raised-button", "", "color", "primary", "routerLink", "/create-project", 1, "create-project", 2, "cursor", "pointer", "display", "flex", "justify-content", "center", "align-items", "center", "border-radius", "60px", "height", "70px", "width", "300px", "font-size", "24px", "color", "white", "background-color", "#1A73E8", 3, "disabled"], ["mat-icon-button", "", "matTooltip", "This button allows you to create a new AI bias assessment. Please note that you can only create one project.", "matTooltipPosition", "after", 2, "position", "absolute", "top", "3px", "right", "3px"], ["mat-raised-button", "", "color", "primary", "disabled", "", 1, "create-project", 2, "cursor", "pointer", "display", "flex", "justify-content", "center", "align-items", "center", "border-radius", "60px", "height", "70px", "width", "300px", "font-size", "24px", "color", "white", "background-color", "gray"], ["mat-icon-button", "", "matTooltip", "You have already created an AI bias assessment project. Creating additional projects is not allowed in AiSCERT LITE.", "matTooltipPosition", "after", 2, "position", "absolute", "top", "3px", "right", "3px"]], template: function InventoryComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](2, "img", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "div", 3)(4, "mat-icon", 4);
@@ -291,7 +300,7 @@ InventoryComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", !ctx.disableCreate);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.disableCreate);
-    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_5__.NgIf, _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_6__.MatCheckbox, _angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterLink, _angular_forms__WEBPACK_IMPORTED_MODULE_7__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_7__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.NgModel, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.NgForm, _angular_material_button__WEBPACK_IMPORTED_MODULE_8__.MatButton, _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__.MatIcon, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_10__.MatTooltip, _layout_copyright_statement_copyright_statement_component__WEBPACK_IMPORTED_MODULE_1__.CopyrightComponent], styles: [".wrap-login1102[_ngcontent-%COMP%] {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding-inline: 44px;\n}\n\n.inventory-body[_ngcontent-%COMP%] {\n  width: 100%;\n  min-height: 82vh;\n  overflow: hidden;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: #F5F6FA;\n  position: relative;\n}\n\n.login100-form-btn[_ngcontent-%COMP%] {\n  margin: 5px;\n  background-color: #1A73E8;\n}\n\n.list-projects-container[_ngcontent-%COMP%] {\n  display: flex;\n  gap: 20px;\n  align-items: stretch; \n  margin-bottom: 40px;\n  min-height: 250px;\n  min-width: 400px;\n  justify-content: center;\n}\n\n.form-content-inventory[_ngcontent-%COMP%] {\n  position: relative;\n  cursor: pointer;\n  background-color: #ffffff;\n  padding: 34px 55px;\n  border: 1px solid #cacaca;\n  border-radius: 20px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkludmVudG9yeS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFdBQUE7RUFHQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSx1QkFBQTtFQUNBLG9CQUFBO0FBREo7O0FBR0E7RUFDSSxXQUFBO0VBQ0EsZ0JBQUE7RUFDQSxnQkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUFDQSxrQkFBQTtBQUFKOztBQUVBO0VBQ0ksV0FBQTtFQUNBLHlCQUFBO0FBQ0o7O0FBQ0E7RUFDSSxhQUFBO0VBQ0EsU0FBQTtFQUVBLG9CQUFBLEVBQUEsc0JBQUE7RUFDQSxtQkFBQTtFQUNBLGlCQUFBO0VBQ0EsZ0JBQUE7RUFDQSx1QkFBQTtBQUNKOztBQUVBO0VBQ0ksa0JBQUE7RUFDQSxlQUFBO0VBQ0EseUJBQUE7RUFDQSxrQkFBQTtFQUNBLHlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0FBQ0oiLCJmaWxlIjoiSW52ZW50b3J5LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLndyYXAtbG9naW4xMTAye1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICAvLyBtYXJnaW4tdG9wOiA1MnB4O1xyXG4gICAgLy8gb3ZlcmZsb3c6IGhpZGRlbjtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBwYWRkaW5nLWlubGluZTogNDRweDtcclxufVxyXG4uaW52ZW50b3J5LWJvZHl7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIG1pbi1oZWlnaHQ6IDgydmg7XHJcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsgXHJcbiAgICBiYWNrZ3JvdW5kOiAjRjVGNkZBO1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG59XHJcbi5sb2dpbjEwMC1mb3JtLWJ0bntcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzFBNzNFODtcclxufVxyXG4ubGlzdC1wcm9qZWN0cy1jb250YWluZXIge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGdhcDoyMHB4O1xyXG4gICAgLy9ncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCgzLCAxZnIpOyAvKiBUd28gY29sdW1ucyB3aXRoIGVxdWFsIHdpZHRoICovXHJcbiAgICBhbGlnbi1pdGVtczogc3RyZXRjaDsgLyogQ2VudGVyIGdyaWQgaXRlbXMgKi9cclxuICAgIG1hcmdpbi1ib3R0b206IDQwcHg7XHJcbiAgICBtaW4taGVpZ2h0OiAyNTBweDtcclxuICAgIG1pbi13aWR0aDogNDAwcHg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxufVxyXG5cclxuLmZvcm0tY29udGVudC1pbnZlbnRvcnl7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmZmZmO1xyXG4gICAgcGFkZGluZzogMzRweCA1NXB4O1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgI2NhY2FjYTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxufSJdfQ== */"] });
+    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_5__.NgIf, _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_6__.MatCheckbox, _angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterLink, _angular_forms__WEBPACK_IMPORTED_MODULE_7__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_7__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.NgModel, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.NgForm, _angular_material_button__WEBPACK_IMPORTED_MODULE_8__.MatButton, _angular_material_icon__WEBPACK_IMPORTED_MODULE_9__.MatIcon, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_10__.MatTooltip, _layout_copyright_statement_copyright_statement_component__WEBPACK_IMPORTED_MODULE_1__.CopyrightComponent], styles: [".wrap-login1102[_ngcontent-%COMP%] {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding-inline: 44px;\n}\n\n.inventory-body[_ngcontent-%COMP%] {\n  width: 100%;\n  min-height: 82vh;\n  overflow: hidden;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: #F5F6FA;\n  position: relative;\n}\n\n.login100-form-btn[_ngcontent-%COMP%] {\n  margin: 5px;\n  background-color: #1A73E8;\n}\n\n.list-projects-container[_ngcontent-%COMP%] {\n  display: flex;\n  gap: 20px;\n  align-items: stretch; \n  margin-bottom: 40px;\n  min-height: 250px;\n  min-width: 400px;\n  justify-content: center;\n}\n\n.form-content-inventory[_ngcontent-%COMP%] {\n  position: relative;\n  cursor: pointer;\n  background-color: #ffffff;\n  padding: 34px 55px;\n  border: 1px solid #cacaca;\n  border-radius: 20px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.edit-project-btn[_ngcontent-%COMP%] {\n  position: absolute;\n  bottom: 5px;\n  right: 5px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkludmVudG9yeS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFdBQUE7RUFHQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSx1QkFBQTtFQUNBLG9CQUFBO0FBREo7O0FBR0E7RUFDSSxXQUFBO0VBQ0EsZ0JBQUE7RUFDQSxnQkFBQTtFQUNBLGFBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUFDQSxrQkFBQTtBQUFKOztBQUVBO0VBQ0ksV0FBQTtFQUNBLHlCQUFBO0FBQ0o7O0FBQ0E7RUFDSSxhQUFBO0VBQ0EsU0FBQTtFQUVBLG9CQUFBLEVBQUEsc0JBQUE7RUFDQSxtQkFBQTtFQUNBLGlCQUFBO0VBQ0EsZ0JBQUE7RUFDQSx1QkFBQTtBQUNKOztBQUVBO0VBQ0ksa0JBQUE7RUFDQSxlQUFBO0VBQ0EseUJBQUE7RUFDQSxrQkFBQTtFQUNBLHlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0FBQ0o7O0FBQ0E7RUFDSSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxVQUFBO0FBRUoiLCJmaWxlIjoiSW52ZW50b3J5LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLndyYXAtbG9naW4xMTAye1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICAvLyBtYXJnaW4tdG9wOiA1MnB4O1xyXG4gICAgLy8gb3ZlcmZsb3c6IGhpZGRlbjtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBwYWRkaW5nLWlubGluZTogNDRweDtcclxufVxyXG4uaW52ZW50b3J5LWJvZHl7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIG1pbi1oZWlnaHQ6IDgydmg7XHJcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsgXHJcbiAgICBiYWNrZ3JvdW5kOiAjRjVGNkZBO1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG59XHJcbi5sb2dpbjEwMC1mb3JtLWJ0bntcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzFBNzNFODtcclxufVxyXG4ubGlzdC1wcm9qZWN0cy1jb250YWluZXIge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGdhcDoyMHB4O1xyXG4gICAgLy9ncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCgzLCAxZnIpOyAvKiBUd28gY29sdW1ucyB3aXRoIGVxdWFsIHdpZHRoICovXHJcbiAgICBhbGlnbi1pdGVtczogc3RyZXRjaDsgLyogQ2VudGVyIGdyaWQgaXRlbXMgKi9cclxuICAgIG1hcmdpbi1ib3R0b206IDQwcHg7XHJcbiAgICBtaW4taGVpZ2h0OiAyNTBweDtcclxuICAgIG1pbi13aWR0aDogNDAwcHg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxufVxyXG5cclxuLmZvcm0tY29udGVudC1pbnZlbnRvcnl7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmZmZmO1xyXG4gICAgcGFkZGluZzogMzRweCA1NXB4O1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgI2NhY2FjYTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxufVxyXG4uZWRpdC1wcm9qZWN0LWJ0biB7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICBib3R0b206IDVweDtcclxuICAgIHJpZ2h0OiA1cHg7XHJcbiAgfSJdfQ== */"] });
 
 
 /***/ }),
@@ -326,6 +335,7 @@ __webpack_require__.r(__webpack_exports__);
 const routes = [
     { path: 'InventoryComponent', component: _Inventory_Inventory_component__WEBPACK_IMPORTED_MODULE_4__.InventoryComponent, canActivate: [_core_guard_auth_guard__WEBPACK_IMPORTED_MODULE_1__.AuthGuard] },
     { path: 'create-project', component: _project_create_project_create_project_component__WEBPACK_IMPORTED_MODULE_5__.CreateProjectComponent, canActivate: [_core_guard_auth_guard__WEBPACK_IMPORTED_MODULE_1__.AuthGuard] },
+    { path: 'create-project/:projectName', component: _project_create_project_create_project_component__WEBPACK_IMPORTED_MODULE_5__.CreateProjectComponent },
     {
         path: 'authentication',
         component: _layout_app_layout_auth_layout_auth_layout_component__WEBPACK_IMPORTED_MODULE_2__.AuthLayoutComponent,
@@ -3828,7 +3838,7 @@ function CreateProjectComponent_div_9_ng_template_27_Template(rf, ctx) { if (rf 
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](0, "Upload Data");
 } }
 function CreateProjectComponent_div_9_span_32_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "span", 30)(1, "div", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "span", 31)(1, "div", 32);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
 } if (rf & 2) {
@@ -3836,18 +3846,13 @@ function CreateProjectComponent_div_9_span_32_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ctx_r9.uploadData.train_data.name);
 } }
-function CreateProjectComponent_div_9_span_39_mat_spinner_2_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "mat-spinner", 33);
-} }
 function CreateProjectComponent_div_9_span_39_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1, "Submit ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](2, CreateProjectComponent_div_9_span_39_mat_spinner_2_Template, 1, 0, "mat-spinner", 32);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1, "Submit");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx_r10.isLoadingButton);
+} }
+function CreateProjectComponent_div_9_mat_spinner_40_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](0, "mat-spinner", 33);
 } }
 function CreateProjectComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     const _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
@@ -3888,7 +3893,8 @@ function CreateProjectComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](37, "div")(38, "button", 29);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function CreateProjectComponent_div_9_Template_button_click_38_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r13); const ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"](); return _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵresetView"](ctx_r14.create()); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](39, CreateProjectComponent_div_9_span_39_Template, 3, 1, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](39, CreateProjectComponent_div_9_span_39_Template, 2, 0, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](40, CreateProjectComponent_div_9_mat_spinner_40_Template, 1, 0, "mat-spinner", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()();
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
@@ -3906,6 +3912,8 @@ function CreateProjectComponent_div_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("disabled", ctx_r1.isLoadingButton);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", !ctx_r1.isLoadingButton);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx_r1.isLoadingButton);
 } }
 function CreateProjectComponent_div_10_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 34);
@@ -4095,10 +4103,11 @@ class Option {
     }
 }
 class CreateProjectComponent {
-    constructor(_formBuilder, apiService, router, authService) {
+    constructor(_formBuilder, apiService, router, activatedRoute, authService) {
         this._formBuilder = _formBuilder;
         this.apiService = apiService;
         this.router = router;
+        this.activatedRoute = activatedRoute;
         this.authService = authService;
         this.breadscrums = [
             {
@@ -4448,6 +4457,17 @@ class CreateProjectComponent {
             }, (error) => {
                 console.error;
             });
+            this.activatedRoute.params.subscribe(params => {
+                const projectName = params['projectName'];
+                if (projectName) {
+                    this.isLoading = true;
+                    this.thirdFormGroup.patchValue({
+                        projectName: projectName,
+                        projectDetails: ''
+                    });
+                    this.loadProjectDetails(projectName);
+                }
+            });
         });
         this.secondFormGroup = this._formBuilder.group({
             uploadModel: [""],
@@ -4499,6 +4519,31 @@ class CreateProjectComponent {
             const nameExists = this.clientProjects.includes(control.value);
             return nameExists ? { nameExists: true } : null;
         };
+    }
+    loadProjectDetails(projectName) {
+        const secondParams = {
+            // "project_name":this.thirdFormGroup.get("projectName").value,
+            "project_name": this.thirdFormGroup.get("projectName").value,
+            "client_id": 'coforge',
+            "user_id": this.currentUser?.email
+        };
+        this.apiService.getFeatures(secondParams).subscribe({
+            next: (secondApiResponse) => {
+                console.log('Second API call successful:', secondApiResponse);
+                // Now you can show the new form.
+                this.datasetFeatures = secondApiResponse.features;
+                this.featureOptions = this.datasetFeatures;
+                this.showNewForm = true;
+            },
+            error: (error) => {
+                console.error('An error occurred:', error);
+                this.isLoading = false;
+            },
+            complete: () => {
+                // This will run after the second API call completes.
+                this.isLoading = false;
+            }
+        });
     }
     create() {
         this.isLoadingButton = true;
@@ -4700,8 +4745,8 @@ class CreateProjectComponent {
         return Object.values(optionsMap);
     }
 }
-CreateProjectComponent.ɵfac = function CreateProjectComponent_Factory(t) { return new (t || CreateProjectComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_3__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](src_app_app_service_service__WEBPACK_IMPORTED_MODULE_0__.AppcollectionService), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_auth0_auth0_angular__WEBPACK_IMPORTED_MODULE_6__.AuthService)); };
-CreateProjectComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: CreateProjectComponent, selectors: [["app-create-project"]], decls: 13, vars: 4, consts: [[1, "cp", 2, "background-color", "#F5F6FA", "height", "calc(100vh - 60px)"], ["routerLink", "/InventoryComponent", 2, "z-index", "1000", "position", "fixed", "width", "100%", "top", "0", "left", "0", "display", "flex", "justify-content", "space-between", "align-items", "center", "padding", "20px", "padding-inline", "44px", "background-color", "#fff"], ["src", "assets/images/Sigma-red-Final-logo.png", "alt", "", 2, "height", "60px"], [2, "display", "flex", "justify-content", "center"], ["matTooltip", "SigmaRed\u2019s AiSCERT Platform identifies and mitigates AI risks related to AI fairness, AI explainability, AI robustness, AI regulatory compliance, and ML monitoring and provides ongoing responsible AI assessment and mitigation.", 2, "cursor", "pointer", "font-size", "24px"], [1, "cp-body", 2, "height", "100vh", "display", "flex", "justify-content", "center", "align-items", "center"], [4, "ngFor", "ngForOf"], [1, "counter-box", 2, "min-width", "500px"], [4, "ngIf"], ["class", "loading-overlay", 4, "ngIf"], [3, "title", "items", "active_item"], [2, "display", "flex", "justify-content", "space-between"], ["matTooltip", "Add project name and description to create a new project.", "matTooltipPosition", "above", 2, "cursor", "pointer"], ["stepper", "matHorizontalStepper"], [3, "stepControl"], [3, "formGroup"], ["matStepLabel", ""], [1, "cp-two-field-container"], ["appearance", "outline", 1, "example-full-width"], ["matInput", "", "required", "", "formControlName", "projectName"], ["matInput", "", "formControlName", "projectDetails"], ["mat-button", "", "matStepperNext", "", 2, "padding-inline", "6px", "padding-top", "2px", "padding-bottom", "2px", "background-color", "#1A73E8", "color", "white"], [3, "stepControl", "completed"], [1, "file-drop-area"], ["mat-raised-button", "", 2, "background-color", "#1A73E8", "color", "white"], ["class", "file-msg", 4, "ngIf"], ["type", "file", "accept", ".csv,.xlsx", 1, "file-input", 3, "change"], [1, "buttons"], ["mat-button", "", "matStepperPrevious", ""], ["mat-raised-button", "", 2, "background-color", "#1A73E8", "color", "white", 3, "disabled", "click"], [1, "file-msg"], [1, "me-2"], ["diameter", "20", "style", "padding-top: 10px; padding-bottom: 10px;", 4, "ngIf"], ["diameter", "20", 2, "padding-top", "10px", "padding-bottom", "10px"], [1, "loading-overlay"], ["mode", "indeterminate"], ["matTooltip", "Select Target, Predicted Column, Protected Attribute, Privileged and Unprivileged for project setup.", "matTooltipPosition", "above", 2, "cursor", "pointer"], ["formControlName", "targetFeatures"], [3, "value", 4, "ngFor", "ngForOf"], ["multiple", "", "formControlName", "prot_attr"], ["formControlName", "pred_col"], ["mat-raised-button", "", "matStepperNext", "", 2, "background-color", "#1A73E8", "color", "white", 3, "click"], [3, "formGroup", 4, "ngIf"], [3, "value"], ["mat-raised-button", "", 2, "background-color", "#1A73E8", "color", "white", 3, "click"], ["multiple", "", 3, "formControlName"]], template: function CreateProjectComponent_Template(rf, ctx) { if (rf & 1) {
+CreateProjectComponent.ɵfac = function CreateProjectComponent_Factory(t) { return new (t || CreateProjectComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_3__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](src_app_app_service_service__WEBPACK_IMPORTED_MODULE_0__.AppcollectionService), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__.Router), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__.ActivatedRoute), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_auth0_auth0_angular__WEBPACK_IMPORTED_MODULE_6__.AuthService)); };
+CreateProjectComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: CreateProjectComponent, selectors: [["app-create-project"]], decls: 13, vars: 4, consts: [[1, "cp", 2, "background-color", "#F5F6FA", "height", "calc(100vh - 60px)"], ["routerLink", "/InventoryComponent", 2, "z-index", "1000", "position", "fixed", "width", "100%", "top", "0", "left", "0", "display", "flex", "justify-content", "space-between", "align-items", "center", "padding", "20px", "padding-inline", "44px", "background-color", "#fff"], ["src", "assets/images/Sigma-red-Final-logo.png", "alt", "", 2, "height", "60px"], [2, "display", "flex", "justify-content", "center"], ["matTooltip", "SigmaRed\u2019s AiSCERT Platform identifies and mitigates AI risks related to AI fairness, AI explainability, AI robustness, AI regulatory compliance, and ML monitoring and provides ongoing responsible AI assessment and mitigation.", 2, "cursor", "pointer", "font-size", "24px"], [1, "cp-body", 2, "height", "100vh", "display", "flex", "justify-content", "center", "align-items", "center"], [4, "ngFor", "ngForOf"], [1, "counter-box", 2, "min-width", "500px"], [4, "ngIf"], ["class", "loading-overlay", 4, "ngIf"], [3, "title", "items", "active_item"], [2, "display", "flex", "justify-content", "space-between"], ["matTooltip", "Add project name and description to create a new project.", "matTooltipPosition", "above", 2, "cursor", "pointer"], ["stepper", "matHorizontalStepper"], [3, "stepControl"], [3, "formGroup"], ["matStepLabel", ""], [1, "cp-two-field-container"], ["appearance", "outline", 1, "example-full-width"], ["matInput", "", "required", "", "formControlName", "projectName"], ["matInput", "", "formControlName", "projectDetails"], ["mat-button", "", "matStepperNext", "", 2, "padding-inline", "6px", "padding-top", "2px", "padding-bottom", "2px", "background-color", "#1A73E8", "color", "white"], [3, "stepControl", "completed"], [1, "file-drop-area"], ["mat-raised-button", "", 2, "background-color", "#1A73E8", "color", "white"], ["class", "file-msg", 4, "ngIf"], ["type", "file", "accept", ".csv,.xlsx", 1, "file-input", 3, "change"], [1, "buttons"], ["mat-button", "", "matStepperPrevious", ""], ["mat-raised-button", "", 2, "background-color", "#1A73E8", "color", "white", 3, "disabled", "click"], ["diameter", "20", "style", "margin-top: 10px; margin-bottom: 10px; color: white; ", 4, "ngIf"], [1, "file-msg"], [1, "me-2"], ["diameter", "20", 2, "margin-top", "10px", "margin-bottom", "10px", "color", "white"], [1, "loading-overlay"], ["mode", "indeterminate"], ["matTooltip", "Select Target, Predicted Column, Protected Attribute, Privileged and Unprivileged for project setup.", "matTooltipPosition", "above", 2, "cursor", "pointer"], ["formControlName", "targetFeatures"], [3, "value", 4, "ngFor", "ngForOf"], ["multiple", "", "formControlName", "prot_attr"], ["formControlName", "pred_col"], ["mat-raised-button", "", "matStepperNext", "", 2, "background-color", "#1A73E8", "color", "white", 3, "click"], [3, "formGroup", 4, "ngIf"], [3, "value"], ["mat-raised-button", "", 2, "background-color", "#1A73E8", "color", "white", 3, "click"], ["multiple", "", 3, "formControlName"]], template: function CreateProjectComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](2, "img", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "div", 3)(4, "mat-icon", 4);
@@ -4710,7 +4755,7 @@ CreateProjectComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MOD
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](7, CreateProjectComponent_div_7_Template, 2, 3, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](9, CreateProjectComponent_div_9_Template, 40, 8, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](9, CreateProjectComponent_div_9_Template, 41, 9, "div", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](10, CreateProjectComponent_div_10_Template, 2, 0, "div", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](11, CreateProjectComponent_div_11_Template, 34, 8, "div", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
@@ -4719,7 +4764,7 @@ CreateProjectComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MOD
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](7);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", ctx.breadscrums);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", !ctx.showNewForm);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", !ctx.isLoading && !ctx.showNewForm);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.isLoading);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
