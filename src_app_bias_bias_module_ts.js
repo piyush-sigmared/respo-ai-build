@@ -40,7 +40,7 @@ class DatacollectionService {
         let url = `${this.gatewayBias}/get_bias_summary/`;
         return this.http.post(url, {
             "project_name": sessionStorage.getItem('Projectname'),
-            "client_name": sessionStorage.getItem('Client_id'),
+            "client_id": sessionStorage.getItem('Client_id'),
             "user_id": user_id
             // "module_name": sessionStorage.getItem('Modulename'),
             // "priv": [
@@ -61,7 +61,7 @@ class DatacollectionService {
         let url = `${this.gatewayBias}/get_attributes/`;
         return this.http.post(url, {
             "project_name": sessionStorage.getItem('Projectname'),
-            "client_name": sessionStorage.getItem('Client_id'),
+            "client_id": sessionStorage.getItem('Client_id'),
             "user_id": user_id
         }).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_1__.map)(data => {
             return JSON.parse(data["body"]);
@@ -71,7 +71,7 @@ class DatacollectionService {
         let url = `${this.gatewayBias}/get_algolist/`;
         return this.http.post(url, {
             "project_name": sessionStorage.getItem('Projectname'),
-            "client_name": sessionStorage.getItem('Client_id'),
+            "client_id": sessionStorage.getItem('Client_id'),
             "user_id": user_id
             // "project_name": sessionStorage.getItem('Projectname'),
             // "module_name": sessionStorage.getItem('Modulename'),
@@ -93,7 +93,7 @@ class DatacollectionService {
         let url = `${this.gatewayBias}/get_overall_groups/`;
         return this.http.post(url, {
             "project_name": sessionStorage.getItem('Projectname'),
-            "client_name": sessionStorage.getItem('Client_id'),
+            "client_id": sessionStorage.getItem('Client_id'),
             "user_id": user_id
             // "project_name": sessionStorage.getItem('Projectname'),
             // "module_name": sessionStorage.getItem('Modulename'),
@@ -134,7 +134,7 @@ class DatacollectionService {
         let url = `${this.gatewayBias}/get_overall_metrics/`;
         return this.http.post(url, {
             "project_name": sessionStorage.getItem('Projectname'),
-            "client_name": sessionStorage.getItem('Client_id'),
+            "client_id": sessionStorage.getItem('Client_id'),
             "feat_name": data,
             "user_id": user_id
             // "project_name": sessionStorage.getItem('Projectname'),
@@ -157,7 +157,7 @@ class DatacollectionService {
         let url = `${this.gatewayBias}/get_protected_data/`;
         return this.http.post(url, {
             "project_name": sessionStorage.getItem('Projectname'),
-            "client_name": sessionStorage.getItem('Client_id'),
+            "client_id": sessionStorage.getItem('Client_id'),
             "user_id": user_id
             // "project_name": sessionStorage.getItem('Projectname'),
             // "module_name": sessionStorage.getItem('Modulename'),
@@ -179,7 +179,7 @@ class DatacollectionService {
     //   let url = `${this.gatewayBias}/get_intersectional_results/`;
     //   return this.http.post(url,{
     //     "project_name": "project1",
-    //     "client_name": "client",
+    //     "client_id": "client",
     //     //"project_name": sessionStorage.getItem('Projectname'),
     //     "module_name": sessionStorage.getItem('Modulename'),
     //     "priv": priv,
