@@ -387,7 +387,7 @@ class IntersectionComponent {
             {
                 title: 'Bias',
                 items: ['Bias'],
-                active: 'Feature-wise Evaluation'
+                active: 'Feature-wise Analytics'
             }
         ];
     }
